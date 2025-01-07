@@ -1,0 +1,8 @@
+﻿name: ms-sql
+services:
+  server:
+    container_name: server
+    build:
+      dockerfile: /Dockerfile
+    ports:
+      - "1433:1433"
