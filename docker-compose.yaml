@@ -1,7 +1,7 @@
-﻿name: ms-sql
+﻿name: ms-sql-server
 services:
   server:
-    container_name: server
+    container_name: ms-sql-server
     build:
       dockerfile: /Dockerfile
     ports:
